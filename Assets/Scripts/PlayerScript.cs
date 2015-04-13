@@ -2,25 +2,30 @@ using UnityEngine;
 using System.Collections;
 using System.IO;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour {
 
 	public float playerVelocity;
 	public float boundary;
+	public GameObject lives;
+	public GameObject pointsGameObject;
 
 	private int playerLives;
 	private int playerPoints;
-	private GUIStyle style;
 	private Vector3 playerPosition;
 	private string pointsPath;
 	private string scoreboardPath;
 	private FileStream file;
 
+
 	void Start () {
 		playerPosition = gameObject.transform.position;
 		playerLives = 3;
-		style = new GUIStyle ();
-		style.fontSize = 40;
+		lives.GetComponent<Text>().text = "Lives: " + playerLives;
 		pointsPath = Directory.GetCurrentDirectory () + "\\points.txt";
 		scoreboardPath = Directory.GetCurrentDirectory () + "\\score_board.txt";
 		updatePointsFromFile ();
@@ -59,25 +64,23 @@ public class PlayerScript : MonoBehaviour {
 		LeaveGame ();
 	}
 
-	void OnGUI() {
-		GUI.Label(new Rect(5.0f, Camera.main.pixelHeight / 2 - 12.0f, 200.0f, 200.0f), "Score: " + playerPoints, style);
-		GUI.Label(new Rect(Camera.main.pixelWidth - 180.0f, Camera.main.pixelHeight / 2 - 12.0f, 200.0f, 200.0f), "Lives: " + playerLives, style);
-	}
-
 	void addPoints(int points) {
 		playerPoints += points;
+		pointsGameObject.GetComponent<Text>().text = playerPoints.ToString(); 
 	}
 
 	void takeLife() {
 		playerLives--;
+		lives.GetComponent<Text>().text = "Lives: " + (int.Parse(Regex.Split(lives.GetComponent<Text>().text, " ")[1]) - 1).ToString();
 	}
 
 	void writePointsToFile() {
-		System.IO.File.WriteAllText(pointsPath, playerPoints.ToString());
+		File.WriteAllText(pointsPath, playerPoints.ToString());
 	}
 
 	void updatePointsFromFile() {
 		playerPoints += int.Parse(File.ReadAllLines(pointsPath)[0]);
+		pointsGameObject.GetComponent<Text>().text = playerPoints.ToString(); 
 	}
 
 	void resetPointsFile() {
@@ -85,16 +88,20 @@ public class PlayerScript : MonoBehaviour {
 	}
 
 	void saveToScoreBoard() {
-		ArrayList resultList = new ArrayList (System.IO.File.ReadAllLines (scoreboardPath));
+		List<string> resultList = new List<string> (File.ReadAllLines (scoreboardPath));
 		if (resultList.Count < 10) {
 			resultList.Add (playerPoints.ToString ());
 		} else {
-			resultList.Sort();
+			resultList = resultList.OrderBy(item => int.Parse(item)).ToList();
+			print (resultList);
+			print(resultList[0]);
+			print(playerPoints);
 			if(int.Parse(resultList[0].ToString()) < playerPoints) {
 				resultList[0] = playerPoints.ToString();
 			}
+			print(resultList[0]);
 		}
-		System.IO.File.WriteAllLines( scoreboardPath, (string[])resultList.ToArray(typeof (string)));
+		File.WriteAllLines(scoreboardPath, resultList.ToArray());
 	}
 	void LeaveGame() {
 		if (Input.GetKeyDown(KeyCode.Escape)) {

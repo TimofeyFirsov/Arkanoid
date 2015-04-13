@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class BlockScript : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class BlockScript : MonoBehaviour {
 
 	void Start () {
 		numberOfHits = 0;
+
 	}
 
 	void OnCollisionEnter2D(Collision2D collision){
@@ -16,6 +18,7 @@ public class BlockScript : MonoBehaviour {
 			numberOfHits++;
 			if(numberOfHits == hitsToKill) {
 				GameObject player = GameObject.FindGameObjectsWithTag("Player")[0];
+
 				player.SendMessage("addPoints", points);
 				Destroy(this.gameObject);
 			}

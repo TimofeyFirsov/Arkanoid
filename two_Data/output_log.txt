@@ -1,0 +1,721 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770M  (ID=0x11e0)
+    Vendor:   NVIDIA
+    VRAM:     2976 MB
+Default GameObject Tag: Player already registered
+ 
+(Filename: C:/buildslave/unity/build/Runtime/BaseClasses/TagManager.cpp Line: 78)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.074 seconds
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Sasha\Documents\Arcanoid\two_Data\Managed\System.dll (this message is harmless)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.538527 ms
+System memory in use before: 12.8 MB.
+System memory in use after: 12.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1003.
+Total: 0.382749 ms (FindLiveObjects: 0.055167 ms CreateObjectMapping: 0.046614 ms MarkObjects: 0.269421 ms  DeleteObjects: 0.010691 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:WinLose() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:36)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:63)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+105
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:WinLose() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:36)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:63)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+436
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:WinLose() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:36)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:63)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+436
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:WinLose() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:36)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:63)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.961362 ms
+System memory in use before: 12.8 MB.
+System memory in use after: 12.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1001.
+Total: 0.281823 ms (FindLiveObjects: 0.040626 ms CreateObjectMapping: 0.015395 ms MarkObjects: 0.215109 ms  DeleteObjects: 0.009836 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.177755 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.304488 ms (FindLiveObjects: 0.030790 ms CreateObjectMapping: 0.009408 ms MarkObjects: 0.238630 ms  DeleteObjects: 0.023948 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.664144 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 156.
+Total: 0.234353 ms (FindLiveObjects: 0.020954 ms CreateObjectMapping: 0.007697 ms MarkObjects: 0.198430 ms  DeleteObjects: 0.005987 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.488806 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.248466 ms (FindLiveObjects: 0.029080 ms CreateObjectMapping: 0.007270 ms MarkObjects: 0.198003 ms  DeleteObjects: 0.013257 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.747108 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.224517 ms (FindLiveObjects: 0.016678 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.195437 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.468279 ms
+System memory in use before: 12.8 MB.
+System memory in use after: 12.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 838.
+Total: 0.341694 ms (FindLiveObjects: 0.049607 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.270704 ms  DeleteObjects: 0.010263 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.256443 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.290376 ms (FindLiveObjects: 0.018816 ms CreateObjectMapping: 0.009836 ms MarkObjects: 0.239485 ms  DeleteObjects: 0.021382 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.431929 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.248893 ms (FindLiveObjects: 0.020099 ms CreateObjectMapping: 0.005987 ms MarkObjects: 0.215964 ms  DeleteObjects: 0.005987 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.467424 ms
+System memory in use before: 12.7 MB.
+System memory in use after: 12.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 612.
+Total: 0.341694 ms (FindLiveObjects: 0.047469 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.272414 ms  DeleteObjects: 0.009836 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.046893 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.398572 ms (FindLiveObjects: 0.030363 ms CreateObjectMapping: 0.011118 ms MarkObjects: 0.328009 ms  DeleteObjects: 0.027369 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.446896 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.249749 ms (FindLiveObjects: 0.019244 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.218102 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.534565 ms
+System memory in use before: 13.0 MB.
+System memory in use after: 13.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1170.
+Total: 0.478970 ms (FindLiveObjects: 0.079543 ms CreateObjectMapping: 0.016678 ms MarkObjects: 0.345115 ms  DeleteObjects: 0.036350 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.530140 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.415250 ms (FindLiveObjects: 0.031218 ms CreateObjectMapping: 0.013257 ms MarkObjects: 0.342122 ms  DeleteObjects: 0.027369 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.529861 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.244189 ms (FindLiveObjects: 0.018816 ms CreateObjectMapping: 0.006414 ms MarkObjects: 0.212970 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.464430 ms
+System memory in use before: 12.8 MB.
+System memory in use after: 12.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 810.
+Total: 0.363504 ms (FindLiveObjects: 0.048752 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.293797 ms  DeleteObjects: 0.010263 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.936131 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.562790 ms (FindLiveObjects: 0.038488 ms CreateObjectMapping: 0.019244 ms MarkObjects: 0.465285 ms  DeleteObjects: 0.037205 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.438771 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.306199 ms (FindLiveObjects: 0.022237 ms CreateObjectMapping: 0.007270 ms MarkObjects: 0.269848 ms  DeleteObjects: 0.005987 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.565356 ms
+System memory in use before: 12.8 MB.
+System memory in use after: 12.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1003.
+Total: 0.413967 ms (FindLiveObjects: 0.064147 ms CreateObjectMapping: 0.015823 ms MarkObjects: 0.323305 ms  DeleteObjects: 0.010263 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.939552 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.613681 ms (FindLiveObjects: 0.033356 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.511900 ms  DeleteObjects: 0.044475 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.445613 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.276691 ms (FindLiveObjects: 0.015823 ms CreateObjectMapping: 0.007697 ms MarkObjects: 0.247183 ms  DeleteObjects: 0.004704 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.465713 ms
+System memory in use before: 12.8 MB.
+System memory in use after: 12.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 810.
+Total: 0.382749 ms (FindLiveObjects: 0.054739 ms CreateObjectMapping: 0.010691 ms MarkObjects: 0.304060 ms  DeleteObjects: 0.011974 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.916887 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.441337 ms (FindLiveObjects: 0.027369 ms CreateObjectMapping: 0.012829 ms MarkObjects: 0.371202 ms  DeleteObjects: 0.027797 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.629504 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.288237 ms (FindLiveObjects: 0.021810 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.252742 ms  DeleteObjects: 0.005559 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.464430 ms
+System memory in use before: 13.0 MB.
+System memory in use after: 13.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1170.
+Total: 0.467424 ms (FindLiveObjects: 0.073556 ms CreateObjectMapping: 0.017106 ms MarkObjects: 0.364359 ms  DeleteObjects: 0.010691 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.907478 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.292941 ms (FindLiveObjects: 0.020954 ms CreateObjectMapping: 0.007697 ms MarkObjects: 0.245900 ms  DeleteObjects: 0.017533 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.538842 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.293797 ms (FindLiveObjects: 0.026514 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.253597 ms  DeleteObjects: 0.005559 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.746681 ms
+System memory in use before: 12.7 MB.
+System memory in use after: 12.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 612.
+Total: 0.375478 ms (FindLiveObjects: 0.046186 ms CreateObjectMapping: 0.011118 ms MarkObjects: 0.307482 ms  DeleteObjects: 0.009836 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.711613 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.327581 ms (FindLiveObjects: 0.021382 ms CreateObjectMapping: 0.008980 ms MarkObjects: 0.275408 ms  DeleteObjects: 0.020527 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.671414 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 211.
+Total: 0.256163 ms (FindLiveObjects: 0.017533 ms CreateObjectMapping: 0.006842 ms MarkObjects: 0.225372 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.642334 ms
+System memory in use before: 12.8 MB.
+System memory in use after: 12.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 838.
+Total: 0.453311 ms (FindLiveObjects: 0.059016 ms CreateObjectMapping: 0.011118 ms MarkObjects: 0.359655 ms  DeleteObjects: 0.021382 ms)
+
+System.Collections.Generic.List`1[System.String]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:96)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:97)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:98)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+203
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:108)
+PlayerScript:saveToScoreBoard() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:102)
+PlayerScript:LeaveGame() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:108)
+PlayerScript:Update() (at C:\Users\Sasha\Documents\Arcanoid\Assets\Scripts\PlayerScript.cs:64)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviour.gen.cs Line: 108)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.845469 ms
+System memory in use before: 12.5 MB.
+System memory in use after: 12.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.325443 ms (FindLiveObjects: 0.019244 ms CreateObjectMapping: 0.008125 ms MarkObjects: 0.274980 ms  DeleteObjects: 0.020954 ms)
+

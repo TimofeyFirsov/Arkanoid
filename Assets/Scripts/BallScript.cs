@@ -4,7 +4,7 @@ using System.Collections;
 public class BallScript : MonoBehaviour {
 
 	public GameObject playerObject;
-	public float speed = 7.0f;
+	public float speed = 40.0f;
 	private bool ballIsActive;
 	private Vector3 ballPosition;
 	private Vector2 ballInitialForce;
@@ -28,14 +28,13 @@ public class BallScript : MonoBehaviour {
 			transform.position = ballPosition;
 		}
 
-		if (ballIsActive && transform.position.y < -4.7f) {
+		if (ballIsActive && transform.position.y < -8.0f) {
 			ballIsActive = !ballIsActive;
 			ballPosition.x = playerObject.transform.position.x;
-			ballPosition.y = -3.98f;
+			ballPosition.y = -6.92f;
 			transform.position = ballPosition;
 
 			GetComponent<Rigidbody2D>().isKinematic = true;
-
 			playerObject.SendMessage("takeLife");
 		}
 	}
